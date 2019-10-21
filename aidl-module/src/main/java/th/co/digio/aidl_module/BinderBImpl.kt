@@ -1,8 +1,7 @@
-package th.co.digio.service
+package th.co.digio.aidl_module
 
 import android.os.RemoteException
 import android.util.Log
-import th.co.digio.aidl_module.IBinderB
 
 class BinderBImpl : IBinderB.Stub() {
     @Throws(RemoteException::class)
